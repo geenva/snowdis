@@ -1,0 +1,57 @@
+{
+  "name": "snowdis",
+  "version": "0.1.0",
+  "description": "Simple & easy to use Redis client for beginners.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write **/*.{ts,js,json,yaml,yml}",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSnowflake/snowdis.git"
+  },
+  "keywords": [
+    "redis",
+    "discord.js",
+    "cache",
+    "caching",
+    "discord.js caching"
+  ],
+  "author": "geneva",
+  "funding": {
+    "type": "individual",
+    "url": "https://paypal.me/devsnowflake"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "ioredis": "^4.27.6"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/ioredis": "^4.26.6",
+    "@types/node-fetch": "^2.5.10",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^7.31.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  },
+  "bugs": {
+    "url": "https://github.com/DevSnowflake/snowdis/issues"
+  }
+}
