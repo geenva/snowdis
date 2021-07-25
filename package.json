@@ -1,6 +1,6 @@
 {
   "name": "snowdis",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple & easy to use Redis client for beginners.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevSnowflake/snowdis.git"
+    "url": "git+https://github.com/geenva/snowdis.git"
   },
   "keywords": [
     "redis",
