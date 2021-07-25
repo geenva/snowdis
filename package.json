@@ -2,8 +2,8 @@
   "name": "snowdis",
   "version": "0.1.1",
   "description": "Simple & easy to use Redis client for beginners.",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist/"
   ],
